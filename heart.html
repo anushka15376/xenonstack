@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> HEART</title>
+        <link rel="stylesheet" href="heartStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/c5a7177c91.js" crossorigin="anonymous"></script>
+        <script>
+            function handleClick(a,b,c){
+               var x=[];
+               x.push(a);
+               x.push(b);
+               x.push(c);
+               alert("Added to cart!")
+
+               console.log(a);
+               localStorage.setItem("title", a)
+
+               console.log(b)
+               localStorage.setItem("imgsrc", b)
+
+               console.log(c)
+               localStorage.setItem("price", c)
+
+            }
+            
+        </script>
+
+        
+
+    </head>
+
+
+    <body> 
+        
+        <section class="header">
+			<nav>
+				 
+				<a href="homepage.html"><img src="logo.png"> </a>
+				<div class = nav-links>
+					<ul>
+						<li><a href="homepage.html"> <h2><i class="fas fa-home"></i></h2></a></li>
+						<li><a href="cart.html"><h2><i class="fas fa-shopping-cart"></i></h2></a> </li>
+						<li><a href="loginold.html"><h4>LOGIN</h4></a> </li>
+						<li><a href="about.html"><h4>ABOUT US</h4></a> </li>
+					</ul>
+				
+			</nav>
+		</section>
+		<br>
+        
+    <div class="small-container">
+        <h2 class='title'> Heart Products </h2>
+        <div class= iframe-container>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sEOblXLp4l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br><br><br>
+        <div class="row">
+        <div class="col-4"> 
+            <img src="https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick('Acebutolol', 'https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg', '1600' )"> Add to cart</button>
+
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://previews.123rf.com/images/anterovium/anterovium1106/anterovium110600006/9703857-colorful-medical-drugs-pills-vitamins-capsules-closeup.jpg">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick('Atenolol ', 'https://previews.123rf.com/images/anterovium/anterovium1106/anterovium110600006/9703857-colorful-medical-drugs-pills-vitamins-capsules-closeup.jpg','300')"> Add to cart</button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgK3ZOwIoomoehKoPsGkXXKtSUtrelI_MHbVVkszExMD7qN8W0Ua_9p23yRlbAINya4Y&usqp=CAU">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick ('Betaxolol','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgK3ZOwIoomoehKoPsGkXXKtSUtrelI_MHbVVkszExMD7qN8W0Ua_9p23yRlbAINya4Y&usqp=CAU','350') "> Add to cart</button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZX6GfEG4jQAhJ0d_7fg4liMqmzktNpULw4C-sbqbmKuk3dfr04YiD9TVdiHLrR3PP0ok&usqp=CAU">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick('Ziac','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZX6GfEG4jQAhJ0d_7fg4liMqmzktNpULw4C-sbqbmKuk3dfr04YiD9TVdiHLrR3PP0ok&usqp=CAU', '1200')"> Add to cart</button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://media.istockphoto.com/photos/blue-and-pink-capsules-picture-id147319918?k=20&m=147319918&s=170667a&w=0&h=-8b7x15KTHG7rZZssBEtbE4psHM8QNcGbQXCgucb8RM=">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick('Zebeta','https://media.istockphoto.com/photos/blue-and-pink-capsules-picture-id147319918?k=20&m=147319918&s=170667a&w=0&h=-8b7x15KTHG7rZZssBEtbE4psHM8QNcGbQXCgucb8RM=', '850')"> Add to cart</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://c8.alamy.com/compfr/rk5x37/orange-blanc-capsules-comprimes-ont-ete-coulees-a-partir-d-une-bouteille-de-blanc-sur-fond-bleu-antecedents-medicaux-modele-rk5x37.jpg">
+        <h4>Heart Medicine 1</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p> &#8377; 1600 </p>
+            <button class="b" onclick="handleClick('Toprol XL','https://c8.alamy.com/compfr/rk5x37/orange-blanc-capsules-comprimes-ont-ete-coulees-a-partir-d-une-bouteille-de-blanc-sur-fond-bleu-antecedents-medicaux-modele-rk5x37.jpg','900')"> Add to cart</button>
+    </div>
+
+
+    <div class="col-4">     
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDfd6L16ef0ltk2jaq4uvbc_B1KLywr49vPj3Nl9P0XweHA7j5DkjN8vqML-rBZYPz7s&usqp=CAU">   
+        <h4>Heart Medicine 1</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p>&#8377; 1600 </p>
+            <button class="b" onclick="handleClick('Nadolol', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDfd6L16ef0ltk2jaq4uvbc_B1KLywr49vPj3Nl9P0XweHA7j5DkjN8vqML-rBZYPz7s&usqp=CAU','450')"> Add to cart</button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg">
+        <h4>Heart Medicine 1</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p> &#8377; 1600 </p>
+            <button class="b" onclick="handleClick('Inderal','https://media.glamour.com/photos/575ec17347455b233743616f/master/pass/pills.jpg','1800')"> Add to cart</button>
+    </div>
+
+    <div class="col-4"> 
+        <img src="https://static.scientificamerican.com/sciam/cache/file/4CA55940-C265-47EF-9B14C2F9B5650B61_source.jpg?w=590&h=800&B9AB67E3-DB3F-474B-9045210F0714D0A4">
+        <h4>Heart Medicine 1</h4>
+        <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+            <p> &#8377; 1600 </p>
+            <button class="b" onclick="handleClick('Eliquis','https://static.scientificamerican.com/sciam/cache/file/4CA55940-C265-47EF-9B14C2F9B5650B61_source.jpg?w=590&h=800&B9AB67E3-DB3F-474B-9045210F0714D0A4','700')"> Add to cart</button>
+        </div>
+
+        <div class="col-4"> 
+            <img src="https://image.shutterstock.com/image-photo/pharmaceuticals-antibiotics-pills-medicine-colorful-260nw-1061962874.jpg">
+            <h4>Heart Medicine 1</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+                <p> &#8377; 1600 </p>
+                <button class="b" onclick="handleClick('Savaysa','https://image.shutterstock.com/image-photo/pharmaceuticals-antibiotics-pills-medicine-colorful-260nw-1061962874.jpg','1300')"> Add to cart</button>
+            </div>
+
+            <div class="col-4"> 
+                <img src="https://images.theconversation.com/files/314451/original/file-20200210-109901-1j5hdi.jpg?ixlib=rb-1.1.0&rect=0%2C201%2C5176%2C2584&q=45&auto=format&w=1356&h=668&fit=crop">
+                <h4>Heart Medicine 1</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                    <p> &#8377; 1600 </p>
+                    <button class="b" onclick="handleClick('Xarelto','https://images.theconversation.com/files/314451/original/file-20200210-109901-1j5hdi.jpg?ixlib=rb-1.1.0&rect=0%2C201%2C5176%2C2584&q=45&auto=format&w=1356&h=668&fit=crop','1500')"> Add to cart</button>
+                </div>
+
+                <div class="col-4"> 
+                    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2F3.imimg.com%2Fdata3%2FNY%2FQV%2FMY-3497618%2Fheart-and-cardiovascular-diseases-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fheart-and-cardiovascular-diseases-6592714888.html&tbnid=ECWeJ0WLQRGLmM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ..i&docid=ADYCZlzwXWoCyM&w=500&h=348&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ">
+                    <h4>Heart Medicine 1</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                        <p> &#8377; 1600 </p>
+                        <button class="b" onclick="handleClick('Coumadin', 'https://www.google.com/imgres?imgurl=https%3A%2F%2F3.imimg.com%2Fdata3%2FNY%2FQV%2FMY-3497618%2Fheart-and-cardiovascular-diseases-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fheart-and-cardiovascular-diseases-6592714888.html&tbnid=ECWeJ0WLQRGLmM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ..i&docid=ADYCZlzwXWoCyM&w=500&h=348&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMygCegUIARDPAQ','500')"> Add to cart</button>
+                    </div>
+                </div>
+
+
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.everydayhealth.com%2Fimages%2Fheart-health%2Fheart-failure%2Fsupplementsheartfailure.jpg&imgrefurl=https%3A%2F%2Fwww.everydayhealth.com%2Fcolumns%2Fjared-bunch-rhythm-of-life%2Fa-guide-to-over-the-counter-drugs-and-supplements-that-may-cause-or-exacerbate-heart-failure%2F&tbnid=uGki4bijPOkfwM&vet=12ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg..i&docid=ie5z3ll-57lF9M&w=1440&h=810&q=heart%20medicine&ved=2ahUKEwiKvpuAhNL0AhVqMLcAHfzRAt4QMyggegUIARCSAg" alt="exc" width="500px" class="offerImg">
+                    </div>
+                    <div class="col-2">
+                    <p> Exclusive offer</p>
+                    <h1>smtg smtg </h1>
+                    <small> Some random heart related home product</small>
+                    <br> <br>
+                    <a href=" "> Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
